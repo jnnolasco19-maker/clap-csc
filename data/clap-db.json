@@ -1,0 +1,488 @@
+{
+  "students": [
+    {
+      "id": "stu-1",
+      "studentId": "2211600004",
+      "fullName": "Dela Cruz, Juan",
+      "course": "BSIT",
+      "yearSection": "3-A",
+      "isParticipant": false,
+      "participantNote": ""
+    },
+    {
+      "id": "stu-2",
+      "studentId": "2211600012",
+      "fullName": "Santos, Maria",
+      "course": "BSCS",
+      "yearSection": "2-B",
+      "isParticipant": true,
+      "participantNote": "Palaro - Bench Yell Competition"
+    },
+    {
+      "id": "stu-3",
+      "studentId": "2211600025",
+      "fullName": "Mendoza, Carlo",
+      "course": "BSCE",
+      "yearSection": "3-A",
+      "isParticipant": false,
+      "participantNote": ""
+    },
+    {
+      "id": "stu-4",
+      "studentId": "2211600031",
+      "fullName": "Alonzo, Bea",
+      "course": "BSIT",
+      "yearSection": "4-A",
+      "isParticipant": false,
+      "participantNote": ""
+    },
+    {
+      "id": "stu-5",
+      "studentId": "2211600048",
+      "fullName": "Reyes, Rafael",
+      "course": "BSCE",
+      "yearSection": "2-A",
+      "isParticipant": true,
+      "participantNote": "Bench yell"
+    },
+    {
+      "id": "stu-6",
+      "studentId": "2211600059",
+      "fullName": "Garcia, Alyssa",
+      "course": "BSCS",
+      "yearSection": "1-A",
+      "isParticipant": false,
+      "participantNote": ""
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-1",
+      "title": "CET General Assembly",
+      "venue": "University Gymnasium",
+      "attendanceStart": "2026-11-24T04:05:51.478Z",
+      "attendanceEnd": "2026-11-24T06:05:51.478Z",
+      "gracePeriodMins": 15,
+      "absentFine": 50,
+      "lateFine": 20,
+      "finesGenerated": true,
+      "createdAt": "2026-11-23T04:05:51.478Z"
+    },
+    {
+      "id": "evt-2",
+      "title": "Palaro & Bench Yell Competition",
+      "venue": "Campus Grounds",
+      "attendanceStart": "2026-11-27T03:35:51.478Z",
+      "attendanceEnd": "2026-11-27T04:12:48.492Z",
+      "gracePeriodMins": 15,
+      "absentFine": 75,
+      "lateFine": 25,
+      "finesGenerated": true,
+      "createdAt": "2026-11-26T04:05:51.478Z"
+    },
+    {
+      "id": "evt-3",
+      "title": "Engineering & Tech Week Opening",
+      "venue": "AVR / Main Auditorium",
+      "attendanceStart": "2026-11-29T04:05:51.478Z",
+      "attendanceEnd": "2026-11-29T06:05:51.478Z",
+      "gracePeriodMins": 20,
+      "absentFine": 100,
+      "lateFine": 30,
+      "finesGenerated": false,
+      "createdAt": "2026-11-26T16:05:51.478Z"
+    }
+  ],
+  "attendance": [
+    {
+      "id": "att-1",
+      "eventId": "evt-1",
+      "studentId": "stu-1",
+      "status": "absent",
+      "checkedInAt": null,
+      "remarks": "Auto-marked absent after window closed"
+    },
+    {
+      "id": "att-2",
+      "eventId": "evt-1",
+      "studentId": "stu-2",
+      "status": "excused",
+      "checkedInAt": null,
+      "remarks": "Exempted: Palaro - Bench Yell Competition"
+    },
+    {
+      "id": "att-3",
+      "eventId": "evt-1",
+      "studentId": "stu-3",
+      "status": "late",
+      "checkedInAt": "2026-11-24T04:41:51.478Z"
+    },
+    {
+      "id": "att-4",
+      "eventId": "evt-1",
+      "studentId": "stu-4",
+      "status": "present",
+      "checkedInAt": "2026-11-24T04:17:51.478Z"
+    },
+    {
+      "id": "att-5",
+      "eventId": "evt-1",
+      "studentId": "stu-5",
+      "status": "absent",
+      "checkedInAt": null,
+      "remarks": "Auto-marked absent after window closed"
+    },
+    {
+      "id": "att-6",
+      "eventId": "evt-1",
+      "studentId": "stu-6",
+      "status": "absent",
+      "checkedInAt": null,
+      "remarks": "Auto-marked absent after window closed"
+    },
+    {
+      "id": "att-1795752768492-stu-1",
+      "eventId": "evt-2",
+      "studentId": "stu-1",
+      "status": "absent",
+      "checkedInAt": null,
+      "remarks": "Auto-marked absent when attendance window closed"
+    },
+    {
+      "id": "att-1795752768493-stu-2",
+      "eventId": "evt-2",
+      "studentId": "stu-2",
+      "status": "absent",
+      "checkedInAt": null,
+      "remarks": "Auto-marked absent when attendance window closed"
+    },
+    {
+      "id": "att-1795752768493-stu-3",
+      "eventId": "evt-2",
+      "studentId": "stu-3",
+      "status": "absent",
+      "checkedInAt": null,
+      "remarks": "Auto-marked absent when attendance window closed"
+    },
+    {
+      "id": "att-1795752768493-stu-4",
+      "eventId": "evt-2",
+      "studentId": "stu-4",
+      "status": "absent",
+      "checkedInAt": null,
+      "remarks": "Auto-marked absent when attendance window closed"
+    },
+    {
+      "id": "att-1795752768493-stu-5",
+      "eventId": "evt-2",
+      "studentId": "stu-5",
+      "status": "absent",
+      "checkedInAt": null,
+      "remarks": "Auto-marked absent when attendance window closed"
+    },
+    {
+      "id": "att-1795752768493-stu-6",
+      "eventId": "evt-2",
+      "studentId": "stu-6",
+      "status": "absent",
+      "checkedInAt": null,
+      "remarks": "Auto-marked absent when attendance window closed"
+    }
+  ],
+  "fines": [
+    {
+      "id": "fine-1",
+      "studentId": "stu-1",
+      "eventId": "evt-1",
+      "attendanceId": "att-1",
+      "amount": 50,
+      "reason": "Absent: CET General Assembly",
+      "status": "unpaid",
+      "settlementType": null,
+      "settlementItem": null,
+      "settledBy": null,
+      "receiptNo": null,
+      "settledAt": null,
+      "createdAt": "2026-11-24T06:05:51.478Z"
+    },
+    {
+      "id": "fine-2",
+      "studentId": "stu-3",
+      "eventId": "evt-1",
+      "attendanceId": "att-3",
+      "amount": 20,
+      "reason": "Late: CET General Assembly",
+      "status": "paid",
+      "settlementType": "item",
+      "settlementItem": "1x Whiteboard Eraser",
+      "settledBy": "Officer Bautista",
+      "receiptNo": "CLAP-1001",
+      "settledAt": "2026-11-26T04:05:51.478Z",
+      "createdAt": "2026-11-24T06:05:51.478Z"
+    },
+    {
+      "id": "fine-3",
+      "studentId": "stu-5",
+      "eventId": "evt-1",
+      "attendanceId": "att-5",
+      "amount": 50,
+      "reason": "Absent: CET General Assembly",
+      "status": "exempted",
+      "settlementType": "exempted",
+      "settlementItem": "Exempted: Bench yell",
+      "settledBy": "Officer Bautista",
+      "receiptNo": "EXEMPTED",
+      "settledAt": "2026-11-27T04:11:20.319Z",
+      "createdAt": "2026-11-24T06:05:51.478Z"
+    },
+    {
+      "id": "fine-4",
+      "studentId": "stu-6",
+      "eventId": "evt-1",
+      "attendanceId": "att-6",
+      "amount": 50,
+      "reason": "Absent: CET General Assembly",
+      "status": "unpaid",
+      "settlementType": null,
+      "settlementItem": null,
+      "settledBy": null,
+      "receiptNo": null,
+      "settledAt": null,
+      "createdAt": "2026-11-24T06:05:51.478Z"
+    },
+    {
+      "id": "fine-1795752768492-stu-1",
+      "studentId": "stu-1",
+      "eventId": "evt-2",
+      "attendanceId": "att-1795752768492-stu-1",
+      "amount": 75,
+      "reason": "Absent: Palaro & Bench Yell Competition",
+      "status": "unpaid",
+      "receiptNo": null,
+      "settledAt": null,
+      "createdAt": "2026-11-27T04:12:48.492Z"
+    },
+    {
+      "id": "fine-1795752768493-stu-2",
+      "studentId": "stu-2",
+      "eventId": "evt-2",
+      "attendanceId": "att-1795752768493-stu-2",
+      "amount": 75,
+      "reason": "Absent: Palaro & Bench Yell Competition",
+      "status": "unpaid",
+      "receiptNo": null,
+      "settledAt": null,
+      "createdAt": "2026-11-27T04:12:48.492Z"
+    },
+    {
+      "id": "fine-1795752768493-stu-3",
+      "studentId": "stu-3",
+      "eventId": "evt-2",
+      "attendanceId": "att-1795752768493-stu-3",
+      "amount": 75,
+      "reason": "Absent: Palaro & Bench Yell Competition",
+      "status": "unpaid",
+      "receiptNo": null,
+      "settledAt": null,
+      "createdAt": "2026-11-27T04:12:48.492Z"
+    },
+    {
+      "id": "fine-1795752768493-stu-4",
+      "studentId": "stu-4",
+      "eventId": "evt-2",
+      "attendanceId": "att-1795752768493-stu-4",
+      "amount": 75,
+      "reason": "Absent: Palaro & Bench Yell Competition",
+      "status": "unpaid",
+      "receiptNo": null,
+      "settledAt": null,
+      "createdAt": "2026-11-27T04:12:48.492Z"
+    },
+    {
+      "id": "fine-1795752768493-stu-5",
+      "studentId": "stu-5",
+      "eventId": "evt-2",
+      "attendanceId": "att-1795752768493-stu-5",
+      "amount": 75,
+      "reason": "Absent: Palaro & Bench Yell Competition",
+      "status": "unpaid",
+      "receiptNo": null,
+      "settledAt": null,
+      "createdAt": "2026-11-27T04:12:48.492Z"
+    },
+    {
+      "id": "fine-1795752768493-stu-6",
+      "studentId": "stu-6",
+      "eventId": "evt-2",
+      "attendanceId": "att-1795752768493-stu-6",
+      "amount": 75,
+      "reason": "Absent: Palaro & Bench Yell Competition",
+      "status": "unpaid",
+      "receiptNo": null,
+      "settledAt": null,
+      "createdAt": "2026-11-27T04:12:48.492Z"
+    }
+  ],
+  "queueSession": {
+    "id": "qs-1",
+    "name": "CET 1st Sem Clearance — Day 1",
+    "isOpen": false,
+    "chairCapacity": 5,
+    "lastTicketNumber": 8,
+    "currentServingNumber": 8,
+    "avgServiceMins": 3
+  },
+  "queueTickets": [
+    {
+      "id": "qt-2",
+      "sessionId": "qs-1",
+      "studentId": "stu-4",
+      "ticketNumber": 2,
+      "status": "completed",
+      "counterLabel": "Chair 1",
+      "handledBy": "Officer Bautista",
+      "actionNote": "Cleared (No unpaid fines)",
+      "calledAt": "2026-11-27T03:45:51.478Z",
+      "completedAt": "2026-11-27T03:49:51.478Z",
+      "createdAt": "2026-11-27T03:30:51.478Z"
+    },
+    {
+      "id": "qt-3",
+      "sessionId": "qs-1",
+      "studentId": "stu-3",
+      "ticketNumber": 3,
+      "status": "completed",
+      "counterLabel": "Chair 2",
+      "handledBy": "Officer Bautista",
+      "actionNote": "Submitted 1x Whiteboard Eraser — Cleared",
+      "calledAt": "2026-11-27T03:50:51.478Z",
+      "completedAt": "2026-11-27T03:54:51.478Z",
+      "createdAt": "2026-11-27T03:35:51.478Z"
+    },
+    {
+      "id": "qt-4",
+      "sessionId": "qs-1",
+      "studentId": "stu-2",
+      "ticketNumber": 4,
+      "status": "completed",
+      "counterLabel": "Chair 1",
+      "handledBy": "Officer Bautista",
+      "actionNote": "paid",
+      "calledAt": "2026-11-27T04:03:51.478Z",
+      "completedAt": "2026-11-27T04:10:41.959Z",
+      "createdAt": "2026-11-27T03:45:51.478Z"
+    },
+    {
+      "id": "qt-5",
+      "sessionId": "qs-1",
+      "studentId": "stu-5",
+      "ticketNumber": 5,
+      "status": "called",
+      "counterLabel": "Chair 2",
+      "handledBy": null,
+      "actionNote": null,
+      "calledAt": "2026-11-27T04:03:51.478Z",
+      "completedAt": null,
+      "createdAt": "2026-11-27T03:47:51.478Z"
+    },
+    {
+      "id": "qt-6",
+      "sessionId": "qs-1",
+      "studentId": "stu-6",
+      "ticketNumber": 6,
+      "status": "called",
+      "counterLabel": "Chair 3",
+      "handledBy": null,
+      "actionNote": null,
+      "calledAt": "2026-11-27T04:08:41.993Z",
+      "completedAt": null,
+      "createdAt": "2026-11-27T03:55:51.478Z"
+    },
+    {
+      "id": "qt-7",
+      "sessionId": "qs-1",
+      "studentId": "stu-1",
+      "ticketNumber": 7,
+      "status": "called",
+      "counterLabel": "Chair 4",
+      "handledBy": null,
+      "actionNote": null,
+      "calledAt": "2026-11-27T04:08:41.993Z",
+      "completedAt": null,
+      "createdAt": "2026-11-27T03:57:51.478Z"
+    },
+    {
+      "id": "qt-1795752614596",
+      "sessionId": "qs-1",
+      "studentId": "stu-3",
+      "ticketNumber": 8,
+      "status": "called",
+      "counterLabel": "Chair 5",
+      "handledBy": null,
+      "actionNote": null,
+      "calledAt": "2026-11-27T04:10:17.525Z",
+      "completedAt": null,
+      "createdAt": "2026-11-27T04:10:14.596Z"
+    }
+  ],
+  "officers": [
+    {
+      "id": "off-1",
+      "name": "Officer Bautista",
+      "roleTitle": "Queue & Clearance Officer"
+    },
+    {
+      "id": "off-2",
+      "name": "Officer Reyes",
+      "roleTitle": "Treasurer / Fines Collector"
+    },
+    {
+      "id": "off-3",
+      "name": "Officer Cruz",
+      "roleTitle": "Attendance Scanner"
+    },
+    {
+      "id": "off-4",
+      "name": "Officer Lim",
+      "roleTitle": "CSC Secretary"
+    }
+  ],
+  "officerShifts": [
+    {
+      "id": "sh-1",
+      "officerId": "off-1",
+      "officerName": "Officer Bautista",
+      "timeIn": "2026-11-27T00:47:06.649Z",
+      "timeOut": "2026-11-27T03:47:06.649Z",
+      "durationMins": 180,
+      "note": "Morning clearance shift"
+    },
+    {
+      "id": "sh-2",
+      "officerId": "off-2",
+      "officerName": "Officer Reyes",
+      "timeIn": "2026-11-27T01:47:06.649Z",
+      "timeOut": "2026-11-27T03:47:06.649Z",
+      "durationMins": 120,
+      "note": "Fines & item collection desk"
+    },
+    {
+      "id": "sh-3",
+      "officerId": "off-3",
+      "officerName": "Officer Cruz",
+      "timeIn": "2026-11-27T03:17:06.649Z",
+      "timeOut": "2026-11-27T03:47:06.649Z",
+      "durationMins": 30,
+      "note": "Event gate check-in"
+    },
+    {
+      "id": "sh-1795753026649",
+      "officerId": "off-2",
+      "officerName": "Officer Reyes",
+      "timeIn": "2026-11-27T04:17:06.649Z",
+      "timeOut": null,
+      "durationMins": 0,
+      "note": "On duty"
+    }
+  ]
+}
